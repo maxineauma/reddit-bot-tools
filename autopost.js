@@ -7,9 +7,6 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// refresh: 26289891222-RCUilt777ODQ6NG1Hfi8WqQ9jEwBqQ
-// access: 26289891222-Za8jPlMnImpPRzkiEK-5M4XfnaAFRg
-
 (async() => {
 
     await r.getSubreddit(config.post.subreddit).submitLink({
